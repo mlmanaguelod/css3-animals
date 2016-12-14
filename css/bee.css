@@ -40,13 +40,14 @@
 
 .bee-buntot{
     position: absolute;
-    left: -20px;
+    left: -60px;
     top: 90px;
-    height: 50px;
-    width: 50px;
-    background-color: #2b190a;
+    height: 0px;
+    width: 0px;
     z-index: -1;
-    border-radius: 100px;
+    border-top: 60px solid #2b190a;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
 }
 
 .bee-eyes1-white{
@@ -94,12 +95,12 @@
 
 .bee-body3-yellow{
     position: absolute;
-    top: 60px;
-    left: -82px;
-    width: 164px;
-    height: 10px;
-    border-bottom: 50px solid #ffd917;
-    border-radius: 0px 0px 60px 60px;
+    top: 65px;
+    left: -81px;
+    width: 162px;
+    height: 1px;
+    border-bottom: 53px solid #ffd917;
+    border-radius: 0 0 60px 60px;
 }
 
 
