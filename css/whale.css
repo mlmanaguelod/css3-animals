@@ -1,0 +1,88 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fdfbec;
+}
+
+
+.animals-wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+
+.whale{
+    position: absolute;
+    float: right;
+    right:  50px;
+    top: 420px;
+    width: 300px;
+    height: 280px;
+    border: 1px solid red;
+}
+
+
+.whale-body{
+    position: absolute;
+    top: 50px;
+    right: 65px;
+    width: 0px;
+    height: 0px;
+    border: 80px solid #39AED1;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.whale-eye-white{
+    position: absolute;
+    top: 80px;
+    left: 100px;
+    width: 0px;
+    height: 0px;
+    border: 17px solid #FCFCF1;
+    border-radius: 20px;
+}
+
+.whale-eye-blue{
+    position: absolute;
+    top: 87px;
+    left: 107px;
+    width: 0px;
+    height: 0px;
+    border: 10px solid #39AED1;
+    border-radius: 20px;
+}
+
+.whale-body2{
+    position: absolute;
+    bottom: 70px;
+    right: 65px;
+    width: 0px;
+    height: 0px;
+    border: 60px solid #B7D4D9;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.whale-stripes1{
+    position: absolute;
+    bottom: 93px;
+    right: 85px;
+    width: 1px;
+    height: 95px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-bottom-right-radius: 1px;
+}
+
+.whale-stripes2{
+    position: absolute;
+    bottom: 93px;
+    right: 90px;
+    width: 1px;
+    height: 95px;
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-bottom-right-radius: 1px;
+}

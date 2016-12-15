@@ -12,13 +12,13 @@ body{
 }
 
 .penguin{
-    position: relative;
+    position: absolute;
     display: block;
     left: 50px;
     top: 450px;
     width: 300px;
     height: 280px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .penguin-lower-beak{
