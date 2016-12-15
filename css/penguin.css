@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #fdfbec;
+}
+
+
+.animals-wrap{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.penguin{
+    position: relative;
+    display: block;
+    left: 50px;
+    top: 450px;
+    width: 300px;
+    height: 280px;
+    border: 1px solid red;
+}
+
+.penguin-lower-beak{
+    position: absolute;
+    right: 70px;
+    top: 60px;
+    width: 0px;
+    height: 0px;
+    border-bottom: 30px solid #faa01e;
+    border-right: 30px solid #faa01e;
+    border-radius: 50px;
+}
+
+.penguin-upper-beak{
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    width: 0px;
+    height: 0px;
+    border-left: 45px solid #faa01e;
+    border-top: 45px solid #faa01e;
+    border-top-right-radius: 50px;
+    /*opacity: 0.8;*/
+    /*z-index: 100;*/
+}
+
+.penguin-body-white{
+    position: absolute;
+    top: 30px;
+    right: 90px;
+    width: 0px;
+    height: 40px;
+    border: 80px solid #fff;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+.penguin-body-black{
+    position: absolute;
+    top: 30px;
+    right: 90px;
+    width: 0px;
+    height: 40px;
+    border: 70px solid #000;
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 100px;
+}
+
